@@ -1,8 +1,28 @@
 aid: syntetica
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/syntetica.png
 name: Syntetica
-description: 'Syntetica is a company surfaced as a portfolio company of eqt-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: sustainability. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Syntetica is a French cleantech company using green chemistry to close
+  the loop on synthetic textiles, starting with nylon. Its proprietary chemical process
+  depolymerises nylon-blend fabrics, separating and purifying Nylon 6 and Nylon 6,6
+  from elastane, cotton, and other fibres in a single process to produce virgin-quality,
+  low-carbon recycled polymers that drop in as replacements for fossil-derived nylon
+  across textile, automotive, and high-performance applications. Backed by EQT Ventures,
+  Bpifrance, SWEN Capital Partners, lululemon, and MAS Holdings, the company raised
+  a $30M Series A in July 2026 to build its first commercial demonstration facility
+  in France. Syntetica is a materials-science and manufacturing company; as of this
+  enrichment pass it publishes no public API, developer portal, SDKs, or machine-readable
+  API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/syntetica/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Sustainability
+- Cleantech
+- Recycling
+- Materials Science
+- Textiles
+- Circular Economy
+- Green Chemistry
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.syntetica.co/
+- type: PrivacyPolicy
+  url: https://www.syntetica.co/privacy-policy
+- type: Support
+  url: https://www.syntetica.co/contact-us
+- type: Blog
+  url: https://www.syntetica.co/news
+- type: LinkedIn
+  url: https://www.linkedin.com/company/syntetica-recycle/
+- type: DomainSecurity
+  url: security/syntetica-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
